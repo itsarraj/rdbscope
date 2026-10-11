@@ -7,6 +7,12 @@ Python tool) are third-party and unmaintained. This is a from-scratch
 Rust implementation of enough of the real RDB binary format to answer
 "what's actually in this dump file" without loading it into a server.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
